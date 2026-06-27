@@ -1,0 +1,35 @@
+# 模型权重
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# 数据集
+PCB_DATASET_VOC/
+pcb_yolo_dataset/images/
+pcb_yolo_dataset/labels/
+
+# 训练/推理输出
+runs/
+pcb_training/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+
+# IDE
+.idea/
+*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
